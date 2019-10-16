@@ -10,13 +10,13 @@
 % Most code sections can only be run on a linux machine with FreeSurfer 
 % installed. The open-source MRIcron is used for DICON->NIFTI conversion. 
 %
-% Folder names and parameters are initialized according to the "Sustained visual
-% perception fMRI experiment 1" as an example. This experiment included a
-% main slow event-related experimental session to which 1st level GLM
-% analysis was applied only to regress out nuisance factors, with the
-% residuals imported to matlab for subsequent processing - and a high level 
-% visual category localizer session, for which the FsFast's GLM was used to
-% apply the contrasts between the stimulus categories (faces, houses,
+% Folder names and parameters are initialized according to the example 
+% experiment available on https://github.com/edden-gerber/fmri-experiment-bundle. 
+% This experiment included a main slow event-related experimental session to 
+% which 1st level GLM analysis was applied only to regress out nuisance factors, 
+% with the residuals imported to matlab for subsequent processing - and a high 
+% level visual category localizer session, for which the FsFast's GLM was used 
+% to apply the contrasts between the stimulus categories (faces, houses,
 % etc.), with the resulting voxel-level t-value maps imported to Matlab. 
 % You should modify the relevant parts according to your experimental 
 % setup. 
